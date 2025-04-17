@@ -165,7 +165,7 @@ zenv report summary
    - Associates packages with one or more tags
 
 ### Relationships
-
+*mermaid renderer is only available on github web, AFAIK the following diagram won't render on mobile apps*
 ```mermaid
 graph LR
     CH(command_history) --> PL(package_log)

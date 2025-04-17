@@ -1,6 +1,8 @@
 # zenv - Visualized Architecture and Flows
 
-This document provides visual representations (using Mermaid.js) of the `zenv` tool's architecture, database schema, and command flows, based on the Architecture Design Document and Functional Specification Document.
+This document provides visual representations (using Mermaid.js) of the `zenv` tool's architecture, database schema, and command flows.
+
+*mermaid renderer is only available on github web, AFAIK the following diagrams/charts won't render on github mobile apps, view this page on a mobile browser if you need to* 
 
 ## 1. Overall Architecture
 
@@ -672,7 +674,7 @@ graph LR
     style Logging fill:#eee,color:#000
     style Utils fill:#eee,color:#000
 ```
-**Explanation:** This mirrors the main architecture diagram but focuses solely on the internal components and their primary relationships as described in Section 3 of the ADD (`requirements.md`).
+**Explanation:** This mirrors the main architecture diagram but focuses solely on the internal components and their primary relationships as described in Section 3 of the ADD.
 
 ### 4.2 Goals Overview (Mind Map)
 
